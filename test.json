@@ -1,19 +1,4 @@
 {
-   "AWSTemplateFormatVersion": "2010-09-09",
-   "Resources": {
-      "myEC2Instance": {
-         "Type": "AWS::EC2::Instance",
-         "Version": "2009-05-15",
-         "Properties": {
-            "ImageId": "ami-0ff8a91507f77f867",
-            "InstanceType": "m1.small",
-            "Monitoring": "true",
-            "DisableApiTermination": "false",
-            "IamInstanceProfile": {
-               "Ref": "RootInstanceProfile"
-            }
-         }
-      },
       "RootRole": {
          "Type": "AWS::IAM::Role",
          "Properties": {
