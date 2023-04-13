@@ -2,4 +2,4 @@
 
 Test repo for webhooks
 
-Add more github events here for testing
+Add more github webhook events here for testing
