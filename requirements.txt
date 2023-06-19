@@ -1,3 +1,2 @@
 dateutils
 requests==2.18.4
-megatron-lm
